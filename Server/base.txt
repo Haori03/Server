@@ -1,0 +1,5 @@
+login:password
+vanya:1234
+ksysha:qwerty
+l:zxc1234
+user:P@ssW0rd
