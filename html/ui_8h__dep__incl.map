@@ -1,0 +1,7 @@
+<map id="ui.h" name="ui.h">
+<area shape="rect" id="node1" title="Заголовочный файл для модуля UI." alt="" coords="98,5,145,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="Главный файл проекта" alt="" coords="5,155,88,181"/>
+<area shape="rect" id="node3" href="$server_8h.html" title="Заголовочный файл модуля server." alt="" coords="84,80,159,107"/>
+<area shape="rect" id="node5" href="$ui_8cpp.html" title="Исполняемый файл для модуля UI." alt="" coords="183,80,244,107"/>
+<area shape="rect" id="node4" href="$server_8cpp.html" title="Исполняемый файл модуля server." alt="" coords="113,155,202,181"/>
+</map>

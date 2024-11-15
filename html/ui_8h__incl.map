@@ -1,0 +1,14 @@
+<map id="ui.h" name="ui.h">
+<area shape="rect" id="node1" title="Заголовочный файл для модуля UI." alt="" coords="355,5,402,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,205,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="280,155,360,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="547,229,605,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="385,155,447,181"/>
+<area shape="rect" id="node6" href="$error_8h.html" title="Заголовочный файл для модуля error." alt="" coords="985,155,1049,181"/>
+<area shape="rect" id="node8" href="$logger_8h.html" title="Заголовочный файл модуля logger." alt="" coords="539,80,613,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="974,229,1061,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="887,155,961,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="472,155,539,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="613,155,680,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="705,155,863,181"/>
+</map>

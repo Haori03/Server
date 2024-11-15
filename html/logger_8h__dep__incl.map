@@ -1,0 +1,10 @@
+<map id="logger.h" name="logger.h">
+<area shape="rect" id="node1" title="Заголовочный файл модуля logger." alt="" coords="105,5,180,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html" title="Главный файл проекта" alt="" coords="8,229,90,256"/>
+<area shape="rect" id="node3" href="$read__base_8h.html" title="Заголовочный файл модуля read_base." alt="" coords="48,80,149,107"/>
+<area shape="rect" id="node5" href="$server_8h.html" title="Заголовочный файл модуля server." alt="" coords="174,155,249,181"/>
+<area shape="rect" id="node7" href="$ui_8h.html" title="Заголовочный файл для модуля UI." alt="" coords="255,80,302,107"/>
+<area shape="rect" id="node4" href="$read__base_8cpp.html" title="Исполняемый файл модуля read_base." alt="" coords="34,155,150,181"/>
+<area shape="rect" id="node6" href="$server_8cpp.html" title="Исполняемый файл модуля server." alt="" coords="167,229,256,256"/>
+<area shape="rect" id="node8" href="$ui_8cpp.html" title="Исполняемый файл для модуля UI." alt="" coords="324,155,385,181"/>
+</map>

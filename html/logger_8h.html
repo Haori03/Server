@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SERVER Андреев: Файл logger.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SERVER Андреев
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Курсовой проект</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл logger.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Заголовочный файл модуля logger.  
+<a href="#details">Подробнее...</a></p>
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
+<code>#include &quot;<a class="el" href="error_8h_source.html">error.h</a>&quot;</code><br />
+<code>#include &lt;boost/filesystem.hpp&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для logger.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8h__incl.png" border="0" usemap="#alogger_8h" alt=""/></div>
+<map name="alogger_8h" id="alogger_8h">
+<area shape="rect" title="Заголовочный файл модуля logger." alt="" coords="293,5,367,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,68,107"/>
+<area shape="rect" title=" " alt="" coords="255,155,314,181"/>
+<area shape="rect" title=" " alt="" coords="144,80,217,107"/>
+<area shape="rect" title=" " alt="" coords="242,80,322,107"/>
+<area shape="rect" title=" " alt="" coords="346,80,413,107"/>
+<area shape="rect" title=" " alt="" coords="437,80,503,107"/>
+<area shape="rect" href="error_8h.html" title="Заголовочный файл для модуля error." alt="" coords="527,80,591,107"/>
+<area shape="rect" title=" " alt="" coords="616,80,775,107"/>
+<area shape="rect" title=" " alt="" coords="516,155,603,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8h__dep__incl.png" border="0" usemap="#alogger_8hdep" alt=""/></div>
+<map name="alogger_8hdep" id="alogger_8hdep">
+<area shape="rect" title="Заголовочный файл модуля logger." alt="" coords="105,5,180,32"/>
+<area shape="rect" href="main_8cpp.html" title="Главный файл проекта" alt="" coords="8,229,90,256"/>
+<area shape="rect" href="read__base_8h.html" title="Заголовочный файл модуля read_base." alt="" coords="48,80,149,107"/>
+<area shape="rect" href="server_8h.html" title="Заголовочный файл модуля server." alt="" coords="174,155,249,181"/>
+<area shape="rect" href="ui_8h.html" title="Заголовочный файл для модуля UI." alt="" coords="255,80,302,107"/>
+<area shape="rect" href="read__base_8cpp.html" title="Исполняемый файл модуля read_base." alt="" coords="34,155,150,181"/>
+<area shape="rect" href="server_8cpp.html" title="Исполняемый файл модуля server." alt="" coords="167,229,256,256"/>
+<area shape="rect" href="ui_8cpp.html" title="Исполняемый файл для модуля UI." alt="" coords="324,155,385,181"/>
+</map>
+</div>
+</div>
+<p><a href="logger_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogger.html">logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Класс записи сообщений в журнал  <a href="classlogger.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Заголовочный файл модуля logger. </p>
+<dl class="section author"><dt>Автор</dt><dd>Андреев И.В. </dd></dl>
+<dl class="section version"><dt>Версия</dt><dd>1.0 </dd></dl>
+<dl class="section date"><dt>Дата</dt><dd>17.08.2024 </dd></dl>
+<dl class="section copyright"><dt>Авторство</dt><dd>ИБСТ ПГУ </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
